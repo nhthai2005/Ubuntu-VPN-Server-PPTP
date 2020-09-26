@@ -25,9 +25,9 @@ Set up Your Own PPTP VPN Server On Ubuntu Linux
 
 	nano /etc/pptpd.conf
 
-	localip 192.168.1.1
+	localip 192.168.0.1
 	
-	remoteip 192.168.1.100-200
+	remoteip 192.168.0.100-200
 5. Enable IP Forwarding
 
 	nano /etc/sysctl.conf
