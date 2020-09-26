@@ -53,3 +53,7 @@ Set up Your Own PPTP VPN Server On Ubuntu Linux
   https://www.youtube.com/watch?v=eb7T6qNCU_w&t=18s&ab_channel=NetVN
   
   https://drive.google.com/file/d/1iS8tlIE33hxsat8ww-r_037xnxxwGA0d/view
+  
+  ---
+  # Run Ubuntu-VPN-Server-PPTP with Docker
+  docker run -dt -p 1723:1723 -p 47:47 --restart unless-stopped --name vpn-server nhthai2005/pptp-server:ubuntu
